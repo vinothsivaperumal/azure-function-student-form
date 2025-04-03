@@ -1,15 +1,16 @@
 const sql = require('mssql');
 
 const config = {
-  user: 'your_user',
-  password: 'your_password',
-  server: 'your_server.database.windows.net',
+  user: 'tech2highadmin2',
+  password: 'SuperSecret!',
+  server: 'tech2hightransaction.database.windows.net',
   database: 'StudentPortalDB',
   options: {
     encrypt: true,
     trustServerCertificate: false,
   },
 };
+
 
 module.exports = async function (context, req) {
   const { name, email, age, phone, enrollment_date } = req.body;
