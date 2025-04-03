@@ -1,0 +1,12 @@
+{
+  "name": "azure-function-student-form",
+  "version": "1.0.0",
+  "description": "Azure Function to handle Google Form submissions",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "mssql": "^9.0.1"
+  }
+}
